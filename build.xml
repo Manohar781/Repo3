@@ -7,7 +7,7 @@
 		<mkdir dir="build/jars"/>
 		<jar destfile="build/jars/CallingMethodsInSameClass.jar" basedir="build/classes">
 			<manifest>
-		  <attribute name ="Main-Class" value ="HelloWorld"/>
+		  <attribute name ="Main-Class" value ="CallingMethodsInSameClass"/>
 			</manifest>
 		</jar>
 	</target>
